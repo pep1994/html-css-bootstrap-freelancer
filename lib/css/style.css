@@ -6,13 +6,19 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* header */
-header {
-  background: #2c3e50;
+main {
+  margin-top: 105px;
 }
+
+/* header */
 
 nav {
   padding: 25px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: #2c3e50;
 }
 
 .title {
@@ -50,4 +56,50 @@ nav {
 .title:hover {
   text-decoration: none;
   color: #fff;
+}
+
+/* section hero */
+#hero {
+  background-color: #1abc9c;
+  padding: 100px 0;
+}
+
+.item-hero {
+  text-align: center;
+}
+
+.item-hero img {
+  width: 250px;
+  margin-bottom: 45px;
+}
+
+.item-hero p {
+  font-size: 25px;
+  color: #fff;
+}
+
+.item-hero h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.divisor {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.star {
+  font-size: 32px;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0 12px;
+}
+
+.line {
+  display: inline-block;
+  background-color: #fff;
+  height: 4px;
+  width: 110px;
+  border-radius: 5px;
 }
