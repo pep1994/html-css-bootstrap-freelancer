@@ -89,16 +89,56 @@ nav {
   margin-bottom: 24px;
 }
 
-.star {
+.star-white {
   font-size: 32px;
   color: #fff;
   vertical-align: middle;
   margin: 0 12px;
 }
 
-.line {
+.line-white {
   display: inline-block;
   background-color: #fff;
+  height: 4px;
+  width: 110px;
+  border-radius: 5px;
+}
+
+/* section cards */
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.title-cards {
+  text-align: center;
+}
+
+#cards {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#cards h2 {
+  font-size: 48px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.star-black {
+  font-size: 32px;
+  color: #2c3e50;
+  vertical-align: middle;
+  margin: 0 12px;
+}
+
+.line-black {
+  display: inline-block;
+  background-color: #2c3e50;
   height: 4px;
   width: 110px;
   border-radius: 5px;
