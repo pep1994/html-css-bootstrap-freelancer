@@ -31,6 +31,10 @@ nav {
   padding-top: 5px;
 }
 
+.menu {
+  text-align: right;
+}
+
 .menu a {
   font-size: 16px;
   color: #fff;
@@ -55,6 +59,27 @@ nav {
 
 .title:hover {
   text-decoration: none;
+  color: #fff;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.menu button {
+  color:  #fff;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  padding: 13px;
+  border-radius: 8px;
+  background: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.menu button:hover {
+  background: #148f77;
+  border-color: #148f77;
   color: #fff;
 }
 
@@ -346,6 +371,15 @@ footer [class*="col-"]:nth-child(3) a:hover {
 
 /* sm */
 @media screen and (max-width: 991px) {
+
+  /* header */
+  .hamburger-menu {
+    display: block;
+  }
+
+  .menu li:first-child, .menu li:nth-child(2), .menu li:nth-child(3) {
+    display: none;
+  }
 
   /* section hero */
   #hero h1 {
