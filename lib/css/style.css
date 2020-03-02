@@ -6,6 +6,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  position: relative;
+}
+
+
 main {
   margin-top: 96px;
 }
@@ -47,6 +52,7 @@ nav {
   color: #1abc9c;
   text-decoration: none;
 }
+
 
 .menu ul {
   list-style-type: none;
