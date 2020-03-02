@@ -340,3 +340,52 @@ footer [class*="col-"]:nth-child(3) a:hover {
   font-size: 13px;
   margin-bottom: 0;
 }
+
+
+/* media query */
+
+/* sm */
+@media screen and (max-width: 991px) {
+
+  /* section hero */
+  #hero h1 {
+    font-size: 50px;
+  }
+
+  #hero p {
+    font-size: 20px;
+  }
+
+  /* section cards */
+  #cards h2 {
+    font-size: 38px;
+  }
+
+  /* section about */
+  #about h2 {
+    font-size: 38px;
+  }
+
+  #about p {
+    margin-bottom: 16px;
+  }
+
+  /* section contact */
+  #contact h2 {
+    font-size: 38px;
+  }
+
+  /* footer */
+  footer .left, footer .center {
+    margin-bottom: 50px;
+  }
+
+}
+
+/*  xs */
+@media screen and (max-width: 767px) {
+
+  .container {
+    max-width: 540px;
+  }
+}
