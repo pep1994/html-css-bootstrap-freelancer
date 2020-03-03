@@ -370,6 +370,77 @@ footer [class*="col-"]:nth-child(3) a:hover {
 }
 
 
+/* modal */
+
+.modal-content {
+  position: relative;
+}
+
+.item-modal {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.item-modal .paragraf-modal {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #212529;
+  margin-top: 48px;
+}
+
+.img-modal {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.divisor-modal h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+.modal-header {
+  border: none;
+}
+
+.modal-footer {
+  text-align: center;
+  border: none;
+}
+
+.button-close {
+  color: #1abc9c;
+  font-size: 40px;
+  opacity: .8;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+}
+
+.button-close:hover {
+  opacity: .5;
+  color: #1abc9c;
+}
+
+.button-modal {
+  color: #fff;
+  background: #1abc9c;
+  border-color: #1abc9c;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: .8;
+}
+
+.button-modal:hover {
+  background-color: #159a80;
+  border-color: #148f77;
+}
+
+
+
 /* media query */
 
 /* sm */
@@ -428,6 +499,10 @@ footer [class*="col-"]:nth-child(3) a:hover {
 
   header .logo a {
     font-size: 19px;
+  }
+
+  .divisor-modal h2 {
+    font-size: 38px;
   }
 }
 

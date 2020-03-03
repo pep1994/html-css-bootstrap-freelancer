@@ -81,7 +81,7 @@
               </div>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
-              <div class="card">
+              <div class="card" data-toggle="modal" data-target="#myModal">
                 <div class="filter">
                   <div class="plus">
                     <i class="fas fa-plus"></i>
@@ -267,6 +267,47 @@
     </footer>
     <!-- fine footer -->
 
+
+
+    <!-- Modal -->
+    <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="close button-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="item-modal">
+                  <div class="divisor divisor-modal">
+                    <h2>LOG CABIN</h2>
+                    <span class="line-black"></span>
+                    <span class="star-black fas fa-star"></span>
+                    <span class="line-black"></span>
+                  </div>
+                  <img src="IMG/casetta.png" alt="casetta" class="img-modal">
+                  <p class="paragraf-modal">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary button-modal" data-dismiss="modal">
+              <i class="fas fa-times"></i>
+              Close Window
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
