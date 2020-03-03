@@ -6,6 +6,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 main {
   margin-top: 96px;
 }
@@ -31,11 +35,32 @@ nav {
   padding-top: 5px;
 }
 
-.menu {
-  text-align: right;
+.menu::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.menu a {
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs > li > a {
+  margin: 0;
+  border: none;
+}
+
+.nav > li > a {
+  padding: 0;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background: none;
+  border: none;
+}
+
+.menu .nav li a {
   font-size: 16px;
   color: #fff;
   font-weight: 700;
@@ -43,19 +68,29 @@ nav {
   display: inline-block;
 }
 
-.menu a:hover {
+.menu .nav li a:hover {
   color: #1abc9c;
   text-decoration: none;
 }
 
-
 .menu ul {
   list-style-type: none;
   margin: 0;
+  float: right;
 }
 
 .menu ul li {
   display: inline-block;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #fff;
+  background: #1abc9c;
+  border-color:  #1abc9c;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .title:hover {
